@@ -1,3 +1,8 @@
+@media screen and (max-width: 800px)  {
+ *{
+    padding: 0%;
+ }  
+}
 
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,13 +79,12 @@
 }
 
 .left-pic {
-    display: flex;
+
     padding-left: 50px;
 }
 
 .right-pharagraph {
     margin: 80px;
-
     h2 {
         color: #005B49;
     }
@@ -96,13 +100,13 @@
 }
 
 .right-pic {
-    display: flex;
+    
     flex-direction: row-reverse;
     padding-right: 70px;
 }
 
 .left-pharagraph {
-    margin: 100px;
+    margin: 50px;
     h2 {
         color: #FFEACD;
     }
@@ -183,7 +187,6 @@
 
 .event-info {
 
-    display: flex;
     flex-direction: column;
     padding: 50px;
 
@@ -215,7 +218,6 @@
     display: flex;
     justify-content: space-around;
     color: #4B8077;
-
 }
 
 .volunteer-info {
